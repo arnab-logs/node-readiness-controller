@@ -17,5 +17,5 @@ nodes:
     kind: JoinConfiguration
     nodeRegistration:
       kubeletExtraArgs:
-        node-labels: "node-group=workers"
+        node-labels: "reserved-for=worker"
         register-with-taints: "readiness.k8s.io/NetworkReady=pending:NoSchedule"

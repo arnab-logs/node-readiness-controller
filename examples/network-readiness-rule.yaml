@@ -15,7 +15,3 @@ spec:
     matchExpressions:
       - key: node-role.kubernetes.io/control-plane
         operator: DoesNotExist
-      - key: reserved-for
-        operator: NotIn
-        values: ["platform"]
-

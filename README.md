@@ -37,6 +37,8 @@ With this controller you can:
 
 **Node Readiness Controller in Kind cluster**
 
+![Node Readiness Demo](docs/demo.gif)
+
 **Example Rule**
 
 ```yaml
@@ -57,8 +59,6 @@ spec:
     matchLabels:
       node-role.kubernetes.io/worker: ""
 ```
-
-https://drive.google.com/file/d/1Q2vCU7FYUrEkHDeQV5NneCH_MNoFshvH/view?usp=sharing
 
 ## High-level Roadmap
 

@@ -9,4 +9,4 @@ edit-url-template = "https://github.com/kubernetes-sigs/node-readiness-controlle
 
 [output.html.fold]
 enable = true
-level = 1
+level = 0
